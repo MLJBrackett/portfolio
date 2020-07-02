@@ -1,0 +1,73 @@
+.introcol{
+    padding-top: 3.5rem;
+}
+.himrow{
+    font-size:3.5rem;
+    font-weight:400;
+}
+
+.torontobased{
+    padding-left:30px;
+    font-size: 1.25rem;
+}
+
+.threeheads{
+    margin-left:7.5rem;
+}
+
+.typed{
+    padding-left:15px;
+}
+
+.textbutton{
+    margin:20px;
+}
+
+#btn-group{
+    margin-top:2rem;
+}
+
+@media (max-width: 1201px){
+    .himrow{
+        font-size:3rem;
+    }
+    .torontobased{
+        font-size:1rem;
+    }
+    .typed{
+        font-size:1rem;
+    }
+    .introrow{
+        padding-left:3.5rem;
+    }
+}
+
+
+@media (max-width: 991px){
+    .introrow{
+        padding-left:0;
+    }
+    .threeheads{
+        margin-left:0;
+        order:2;
+    }
+    .introcol{
+        order:1;
+        text-align: center;
+        padding-top:0;
+        padding-bottom:1.5rem;
+    }
+    .himrow{
+        display:block;
+    }
+    .torontobased{
+        display:block;
+        padding-left:0px;
+    }
+    .typed{
+        padding-left:0px;
+    }
+    .textbutton{
+        margin:10px;
+    }
+}

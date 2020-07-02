@@ -1,1 +1,35 @@
-<p>home works!</p>
+<div class="container">
+    <div class="row introrow" style="padding-top: 2rem;">
+        <div class="col-lg-4 introcol">
+            <div class="row himrow">Hi, I'm Michael.</div>
+            <div class="row torontobased">A Toronto based Software Developer</div>
+            <span class="typed">also <span id="typed-element"></span></span>
+        </div>
+        <img class="col-lg-6 threeheads" src="../../assets/3 Heads Together.svg">
+    </div>
+    <div id="btn-group" class="row justify-content-center">
+        <button type="button" class="btn btn-light textbutton active" (click)="showDiv.parttime = true;showDiv.seneca = false;showDiv.mgcs = false;showDiv.youremp = false">Part-time Worker</button>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right align-self-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
+        </svg>
+        <button type="button" class="btn btn-light textbutton" (click)="showDiv.seneca = true;showDiv.parttime = false;showDiv.mgcs = false;showDiv.youremp = false">Seneca College</button>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right align-self-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
+        </svg>
+        <button type="button" class="btn btn-light textbutton" (click)="showDiv.mgcs = true;showDiv.seneca = false;showDiv.parttime = false;showDiv.youremp = false">Ministry of Government <br> and Consumer Services</button>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right align-self-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
+        </svg>
+        <button type="button" class="btn btn-light textbutton" (click)="showDiv.youremp = true;showDiv.seneca = false;showDiv.mgcs = false;showDiv.parttime = false">Your Employee</button>
+        
+    </div>
+    <div class="row">
+        <div *ngIf="showDiv.parttime">This is partime</div>
+        <div *ngIf="showDiv.seneca">This is seneca</div>
+        <div *ngIf="showDiv.mgcs">This is mgcs</div>
+        <div *ngIf="showDiv.youremp">This is youremp</div>
+    </div>
+</div>
