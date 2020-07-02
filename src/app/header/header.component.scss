@@ -1,0 +1,19 @@
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar-toggler{
+    border-color: transparent;
+}
+
+.logo{
+    max-width: 100px;
+    width:100%;
+    height:auto;
+}
+
+@media (min-width: 1440px){
+    .container{
+        max-width: 1380px;
+    }
+}
