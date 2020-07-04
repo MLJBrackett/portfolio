@@ -17,6 +17,7 @@
 
 .typed{
     padding-left:15px;
+    font-size:1rem;
 }
 
 .textbutton{
@@ -27,7 +28,29 @@
     margin-top:2rem;
 }
 
-@media (max-width: 1201px){
+.historyimg{
+    width:50%;
+}
+
+.history-container{
+    text-align: center;
+    min-height: 294px;
+}
+
+.history-desc{
+    padding:15px;
+}
+
+.history{
+    text-align: justify;
+    margin-left: 15rem;
+}
+
+.arrowdowndivider{
+    display:none;
+}
+
+@media (max-width: 1200px){
     .himrow{
         font-size:3rem;
     }
@@ -35,15 +58,24 @@
         font-size:1rem;
     }
     .typed{
-        font-size:1rem;
+        font-size:.75rem;
     }
     .introrow{
         padding-left:3.5rem;
     }
+    .history{
+        margin-left: 10rem;
+    }
+    .historyimg{
+        width:75%;
+    }
+    .history-container{
+        min-height:387px;
+    }
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 992px){
     .introrow{
         padding-left:0;
     }
@@ -69,5 +101,43 @@
     }
     .textbutton{
         margin:10px;
+    }
+    .history{
+        margin-left: 0rem;
+    }
+    .historyimg{
+        width: 50%;
+    }
+    .history-desc{
+        min-height: 126px;
+    }
+    .history-container{
+        min-height: 482px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .arrowdivider{
+        display:none;
+    }
+    .arrowdowndivider{
+        display:block;
+        margin-left:45%;
+    }
+    .history-desc{
+        min-height: 174px;
+    }
+    #btn-group{
+        display:grid;
+    }
+}
+
+@media (max-width: 576px){
+    .history-desc{
+        min-height: 270px;
+    }
+    .history-container{
+        min-height: 280px;
     }
 }
