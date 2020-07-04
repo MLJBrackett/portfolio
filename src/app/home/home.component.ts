@@ -26,9 +26,8 @@ export class HomeComponent implements OnInit {
     let typed = new Typed('#typed-element', options);
 
     $(document).ready(function() {
-      $("parttime").show();
-      $("#seneca").hide();
-      $("#mgcs").hide();
+      $("#parttime").hide();
+      $("#mgcs").show();
       $("#youremp").hide();
 
       $("#btn-group > .btn").click(function(){
@@ -38,37 +37,19 @@ export class HomeComponent implements OnInit {
       
       $("#nofrillsbut").click(function () {
         $("#parttime").show();
-        $("#seneca").hide();
-        $("#mgcs").hide();
-        $("#youremp").hide();
-      });
-      $("#senecabut").click(function () {
-        $("#parttime").hide();
-        $("#seneca").show();
         $("#mgcs").hide();
         $("#youremp").hide();
       });
       $("#mgcsbut").click(function () {
         $("#parttime").hide();
-        $("#seneca").hide();
         $("#mgcs").show();
         $("#youremp").hide();
       });
       $("#empbut").click(function () {
         $("#parttime").hide();
-        $("#seneca").hide();
         $("#mgcs").hide();
         $("#youremp").show();
       });
    });
-
-    
-  }
-  
-  showDiv={
-    parttime : true,
-    seneca :false,
-    mgcs :false,
-    youremp :false
   }
 }
