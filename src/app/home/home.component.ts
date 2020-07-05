@@ -25,6 +25,19 @@ export class HomeComponent implements OnInit {
     
     let typed = new Typed('#typed-element', options);
 
+    $(document).keydown(function(e) {
+      if (e.keyCode === 37) {
+         // Previous
+         $(".carousel-control.left").click();
+         return false;
+      }
+      if (e.keyCode === 39) {
+         // Next
+         $(".carousel-control.right").click();
+         return false;
+      }
+  });
+
     $(document).ready(function() {
       $("#parttime").hide();
       $("#mgcs").show();
