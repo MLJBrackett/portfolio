@@ -49,8 +49,30 @@
 .arrowdowndivider{
     display:none;
 }
+
+.but{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 .endbut{
     margin:15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;      
+}
+.endbut:hover{
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 1200px){
