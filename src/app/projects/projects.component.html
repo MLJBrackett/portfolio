@@ -18,7 +18,7 @@
         <div *ngFor="let project of projects | filter:term;" class="col-lg-4 cardcontainer">
             <div class="card h-100">
                 <div class="card-header">
-                  <strong>{{project.name}}</strong>
+                  <strong>{{project.name}}</strong><span class="badge badge-dark" style="float: right">{{project.language}}</span>
                 </div>
                 <div class="card-body d-flex flex-column">
                   <strong>Description:</strong>
@@ -32,7 +32,7 @@
                     <a *ngIf="project.hosted" target="_blank" href="{{project.example}}" class="btn btn-danger mt-auto cardbutton">Hosted</a>
                   </div>
                 </div>
-                <div class="card-footer">Language: {{project.language}}</div>
+                
               </div>
         </div>
     </div>
