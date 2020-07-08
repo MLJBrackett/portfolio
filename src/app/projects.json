@@ -10,7 +10,7 @@
   },
   {
     "name": "Networked TicTacToe",
-    "desc": "Multiplayer Networked TicTacToe using client server connections",
+    "desc": "Multiplayer networked TicTacToe using client server connections",
     "language": "Java",
     "techused": "AWT, Client - Server, Sockets, Swing",
     "code": "https://github.com/MLJBrackett/networked-tictactoe",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Management Site",
-    "desc": "A Bootstrap Employee Management site",
+    "desc": "A Bootstrap employee management site",
     "language": "Javascript",
     "techused": "Bootstrap, Express.js, MongoDB, NodeJS, PostgreSQL, Sequelize, bcrypt.js, jQuery",
     "code": "https://github.com/MLJBrackett/management-site",

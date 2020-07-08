@@ -20,55 +20,40 @@
     font-size:1rem;
 }
 
-.textbutton{
-    margin:20px;
-}
-
-#btn-group{
-    margin-top:.75rem;
-}
-
-.historyimg{
-    width:50%;
-}
-
-.history-container{
-    text-align: center;
-    min-height: 294px;
-}
-
-.history-desc{
-    padding:15px;
-}
-
-.history{
-    text-align: justify;
-    margin-left: 15rem;
-}
-
-.arrowdowndivider{
-    display:none;
-}
-
-.but{
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.endbut{
+.btn{
     margin:15px;
-    background-color: white;
-    color: black;
-    border: 2px solid black;      
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    margin-left:20px;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid black;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
 }
 
 @media (max-width: 1200px){
@@ -83,15 +68,6 @@
     }
     .introrow{
         padding-left:3.5rem;
-    }
-    .history{
-        margin-left: 10rem;
-    }
-    .historyimg{
-        width:75%;
-    }
-    .history-container{
-        min-height:387px;
     }
 }
 
@@ -119,49 +95,5 @@
     }
     .typed{
         padding-left:0px;
-    }
-    .textbutton{
-        margin:10px;
-    }
-    .history{
-        margin-left: 0rem;
-    }
-    .historyimg{
-        width: 30%;
-    }
-    .history-desc{
-        min-height: 126px;
-    }
-}
-
-@media (max-width: 768px){
-    .arrowdivider{
-        display:none;
-    }
-    .arrowdowndivider{
-        display:block;
-        margin-left:45%;
-    }
-    .history-desc{
-        min-height: 174px;
-    }
-    #btn-group{
-        display:grid;
-    }
-}
-
-@media (max-width: 576px){
-    .history-desc{
-        min-height: 270px;
-    }
-    .history-container{
-        min-height: 359px;
-    }
-    .historyimg{
-        width:50%;
-    }
-    .row{
-        margin-left:0px !important;
-        margin-right:0px !important;
     }
 }
