@@ -9,6 +9,7 @@ import $ from "jquery";
 })
 export class ProjectsComponent implements OnInit {
   projects: Array<projects> = projectList
+  term: string;
   constructor() { 
   }
 

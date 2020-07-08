@@ -8,8 +8,14 @@
     <div class="alert alert-warning" role="alert">
       Please be aware that loading time for hosted projects is slow
     </div>
+    <div class="alert alert-primary" role="alert">
+      <h4 class="alert-heading">Search</h4>
+      <hr>
+      <input type="text" class="form-control searchbar" placeholder="Search for languages, concepts, names, technologies..." [(ngModel)]="term">
+    </div>
+    
     <div class="row card-group">
-        <div *ngFor="let i = index; let project of projects" class="col-lg-4 cardcontainer">
+        <div *ngFor="let project of projects | filter:term;" class="col-lg-4 cardcontainer">
             <div class="card h-100">
                 <div class="card-header">
                   <strong>{{project.name}}</strong>
@@ -19,7 +25,7 @@
                   <h5 class="card-title">{{project.desc}}</h5>
                   <strong>Technology Used:</strong>
                   <div class="row card-text">
-                    <span *ngFor="let tech of this.projects[i].techused" class="col-6">{{tech}}</span>
+                    <span *ngFor="let tech of project.techused.split(',')" class="col-6">{{tech}}</span>
                   </div>
                   <div class="d-flex flex-row mt-auto buttonrow">
                     <a href="{{project.code}}" target="_blank" class="btn btn-primary mt-auto cardbutton">Code here</a>
