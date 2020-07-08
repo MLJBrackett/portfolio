@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Bootstrap Blog",
+    "desc": "A fully working MEAN stack blog",
+    "language": "Typescript",
+    "techused": [
+      "NodeJS",
+      "Angular",
+      "Bootstrap",
+      "jQuery",
+      "MongoDB",
+      "Express.js"
+    ],
+    "code": "https://github.com/MLJBrackett/bootstrap-blog",
+    "hosted": true,
+    "example": "https://polar-castle-75737.herokuapp.com/home"
+  },
+  {
+    "name": "Networked TicTacToe",
+    "desc": "Multiplayer Networked TicTacToe using client server connections",
+    "language": "Java",
+    "techused": [
+      "Sockets",
+      "Client - Server",
+      "Swing",
+      "AWT"
+    ],
+    "code": "https://github.com/MLJBrackett/networked-tictactoe",
+    "hosted": false,
+    "example": null
+  },
+  {
+    "name": "Connect Four",
+    "desc": "Connect Four with Player vs Player & Player vs AI",
+    "language": "Java",
+    "techused": [
+      "Swing",
+      "AWT",
+      "Artifical Intelligence",
+      "Minimax Algorithm"
+    ],
+    "code": "https://github.com/MLJBrackett/connect-four",
+    "hosted": false,
+    "example": null
+  },
+  {
+    "name": "Aid Management Application",
+    "desc": "CLI tracker for critical information in natural disasters",
+    "language": "C++",
+    "techused": [
+      "Classes",
+      "Dynamic Allocation",
+      "Virtual Functions",
+      "Abstraction",
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "File Database system"
+    ],
+    "code": "https://github.com/MLJBrackett/aid-management-application",
+    "hosted": false,
+    "example": null
+  },
+  {
+    "name": "Management Site",
+    "desc": "A Bootstrap Employee Management site",
+    "language": "Javascript",
+    "techused": [
+      "NodeJS",
+      "Bootstrap",
+      "jQuery",
+      "MongoDB",
+      "PostgreSQL",
+      "Sequelize",
+      "Express.js",
+      "bcrypt.js"
+    ],
+    "code": "https://github.com/MLJBrackett/management-site",
+    "hosted": true,
+    "example": "https://shielded-coast-78859.herokuapp.com/"
+  },
+  {
+    "name": "Portfolio",
+    "desc": "Portfolio Website",
+    "language": "Typescript",
+    "techused": [
+      "NodeJS",
+      "Angular",
+      "Bootstrap",
+      "jQuery"
+    ],
+    "code": "https://github.com/MLJBrackett/portfolio",
+    "hosted": true,
+    "example": "https://mljbrackett.com"
+  },
+  {
+    "name": "Typing Tutor",
+    "desc": "On screen keyboard to learn typing",
+    "language": "Java",
+    "techused": [
+      "Swing",
+      "AWT",
+      "Event Listeners"
+    ],
+    "code": "https://github.com/MLJBrackett/typing-tutor",
+    "hosted": false,
+    "example": null
+  }
+]
