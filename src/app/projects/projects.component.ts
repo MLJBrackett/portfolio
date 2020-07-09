@@ -10,10 +10,8 @@ import { projects } from '../projects'
 export class ProjectsComponent implements OnInit {
   projects: Array<projects> = projectList
   term: string;
-  constructor() { 
-  }
+  constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
