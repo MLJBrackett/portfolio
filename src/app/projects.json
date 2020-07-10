@@ -1,39 +1,43 @@
 [
   {
-    "name": "Bootstrap Blog",
+    "name": "Bootstrap Blog Website",
     "desc": "A fully functional MEAN stack blog",
     "language": "Typescript",
     "techused":"Angular, Bootstrap, Express.js, MongoDB, NodeJS, jQuery",
     "code": "https://github.com/MLJBrackett/bootstrap-blog",
     "hosted": true,
-    "example": "https://polar-castle-75737.herokuapp.com/home"
+    "example": "https://polar-castle-75737.herokuapp.com/home",
+    "image": "./assets/projects/blog.png"
   },
   {
-    "name": "Networked TicTacToe",
+    "name": "Networked TicTacToe Game",
     "desc": "Multiplayer networked TicTacToe using client server connections",
     "language": "Java",
     "techused": "AWT, Client - Server, Sockets, Swing",
     "code": "https://github.com/MLJBrackett/networked-tictactoe",
     "hosted": false,
-    "example": null
+    "example": null,
+    "image": "./assets/projects/tictactoe.png"
   },
   {
-    "name": "Connect Four",
+    "name": "Connect Four Game",
     "desc": "Connect Four with Player vs Player & Player vs AI",
     "language": "Java",
     "techused":"AWT, Artifical Intelligence, Minimax Algorithm, Swing",
     "code": "https://github.com/MLJBrackett/connect-four",
     "hosted": false,
-    "example": null
+    "example": null,
+    "image": "./assets/projects/connectfour.png"
   },
   {
     "name": "Aid Management Application",
     "desc": "CLI tracker for critical information in natural disasters",
-    "language": "C++",
+    "language": "C++/CPP",
     "techused": "Abstraction, Classes, Dynamic Allocation, Encapsulation, File Database, Inheritance, Polymorphism, Virtual Functions",
     "code": "https://github.com/MLJBrackett/aid-management-application",
     "hosted": false,
-    "example": null
+    "example": null,
+    "image": "./assets/projects/ama.png"
   },
   {
     "name": "Management Site",
@@ -42,24 +46,27 @@
     "techused": "Bootstrap, Express.js, MongoDB, NodeJS, PostgreSQL, Sequelize, bcrypt.js, jQuery",
     "code": "https://github.com/MLJBrackett/management-site",
     "hosted": true,
-    "example": "https://shielded-coast-78859.herokuapp.com/"
+    "example": "https://shielded-coast-78859.herokuapp.com/",
+    "image": "./assets/projects/employee.png"
   },
   {
-    "name": "Portfolio",
-    "desc": "Portfolio Website",
+    "name": "Portfolio Website",
+    "desc": "This website!",
     "language": "Typescript",
     "techused": "Angular, Bootstrap, NodeJS, jQuery",
     "code": "https://github.com/MLJBrackett/portfolio",
     "hosted": true,
-    "example": "https://mljbrackett.com"
+    "example": "https://mljbrackett.com",
+    "image": "./assets/projects/portfolio.png"
   },
   {
-    "name": "Typing Tutor",
+    "name": "Typing Tutor Application",
     "desc": "On screen keyboard to learn typing",
     "language": "Java",
     "techused": "AWT, Event Listeners, Swing",
     "code": "https://github.com/MLJBrackett/typing-tutor",
     "hosted": false,
-    "example": null
+    "example": null,
+    "image": "./assets/projects/typing.png"
   }
 ]

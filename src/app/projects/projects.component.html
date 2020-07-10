@@ -11,17 +11,19 @@
   <div class="alert alert-primary" role="alert">
     <h4 class="alert-heading">Search</h4>
     <hr>
-    <input type="text" class="form-control searchbar"
+    This page is meant to search through my projects and see if the technologies match up with your business
+    <input type="text" class="form-control searchbar" style="margin-top:15px;"
       placeholder="Search for languages, concepts, names, technologies..." [(ngModel)]="term">
   </div>
 
   <div class="row card-group">
-    <div *ngFor="let project of projects | filter:term;" class="col-lg-4 cardcontainer">
+    <div *ngFor="let project of projects | filter:term" class="col-lg-4 cardcontainer">
       <div class="card h-100">
         <div class="card-header">
-          <strong>{{project.name}}</strong><span class="badge badge-secondary"
+          <strong style="font-size: 1.25rem;">{{project.name}}</strong><span class="badge badge-secondary"
             style="float: right">{{project.language}}</span>
         </div>
+        <img class="card-img-top thumbnail" src="{{project.image}}" alt="Card image cap">
         <div class="card-body d-flex flex-column" style="text-align: center;">
           <strong>Description</strong>
           <h5 class="card-title">{{project.desc}}</h5>

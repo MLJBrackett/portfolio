@@ -1,25 +1,30 @@
 .projectrow{
-    text-align: center;
     font-size:3.5rem;
     font-weight:400;
     padding-bottom:2rem;
     padding-top: 2rem;
+    display:grid;
 }
 .thanks{
-    padding-left:30px;
     font-size: 1.25rem;
 }
 .connect-row{
     font-size:1rem;
+    display:grid;
+    padding-bottom:2rem;
 }
 .card{
     height:100%
+}
+.card-deck{
+    padding-top:2rem;
 }
 .historyrow{
     text-align: center;
     font-size:3.5rem;
     font-weight:400;
     padding-bottom:2rem;
+    padding-top: 2rem;
 }
 .connect-row{
     font-size:2rem;
