@@ -1,7 +1,7 @@
 [
   {
     "name": "Bootstrap Blog Website",
-    "desc": "A fully functional MEAN stack blog",
+    "desc": "A fully functional data-driven MEAN stack blog",
     "language": "Typescript",
     "techused":"Angular, Bootstrap, Express.js, MongoDB, NodeJS, jQuery",
     "code": "https://github.com/MLJBrackett/bootstrap-blog",
@@ -32,12 +32,12 @@
   {
     "name": "Aid Management Application",
     "desc": "CLI tracker for critical information in natural disasters",
-    "language": "C++/CPP",
+    "language": "C++",
     "techused": "Abstraction, Classes, Dynamic Allocation, Encapsulation, File Database, Inheritance, Polymorphism, Virtual Functions",
     "code": "https://github.com/MLJBrackett/aid-management-application",
     "hosted": false,
     "example": null,
-    "image": "./assets/projects/ama.png"
+    "image": "./assets/projects/amacpp.png"
   },
   {
     "name": "Management Site",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Portfolio Website",
-    "desc": "This website!",
+    "desc": "Personal website to showcase myself and projects",
     "language": "Typescript",
     "techused": "Angular, Bootstrap, NodeJS, jQuery",
     "code": "https://github.com/MLJBrackett/portfolio",
