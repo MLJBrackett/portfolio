@@ -10,6 +10,16 @@
     "image": "./assets/projects/blog.png"
   },
   {
+    "name": "Link Check",
+    "desc": "Simple program for finding good/dead links in any file type.",
+    "language": "Python",
+    "techused": "Regex, Requests, Argparse, Colorama",
+    "code": "https://github.com/MLJBrackett/link-check",
+    "hosted": false,
+    "example": null,
+    "image": "./assets/projects/linkcheck.png"
+  },
+  {
     "name": "Networked TicTacToe Game",
     "desc": "Multiplayer networked TicTacToe using client server connections",
     "language": "Java",
@@ -61,12 +71,22 @@
   },
   {
     "name": "Typing Tutor Application",
-    "desc": "On screen keyboard to learn typing",
+    "desc": "On screen keyboard to learn/practice typing",
     "language": "Java",
     "techused": "AWT, Event Listeners, Swing",
     "code": "https://github.com/MLJBrackett/typing-tutor",
     "hosted": false,
     "example": null,
     "image": "./assets/projects/typing.png"
+  },
+  {
+    "name": "Pong",
+    "desc": "A Unity made remake of the classical game pong",
+    "language": "C#",
+    "techused": "Unity",
+    "code": "https://github.com/MLJBrackett/csharp-pong",
+    "hosted": false,
+    "example": null,
+    "image": "./assets/projects/pong.png"
   }
 ]
